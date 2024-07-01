@@ -1,0 +1,14 @@
+BODY {background:url(Sky1.jpg); 
+COLOR:#210332;font-family:"Times New Roman", 
+"normal"; }
+
+.stback {font-size:18;
+		text-align:center;border-color:#210332;
+		border-style:dashed;
+		background-color:#6372FC}
+
+.stmhead {font-size:40;font-weight:bolder;
+		text-align:center}
+
+.stlhead {font-weight:bold; 
+	font-size:25; text-align:center;}

@@ -1,0 +1,14 @@
+BODY {background:url(Sky7.jpg); 
+COLOR:White;font-family:"Times New Roman", 
+"normal"; }
+
+.stdesc {font-size:18;
+		text-align:justify;margin-left:5;margin-right:5;
+		background-color:#6372FC; color:#5E0990}
+
+.stheads {font-size:18;font-weight:bold;
+		text-align:center;
+		background-color:#6372FC}
+
+.stft {font-style:italic;font-weight:bolder; 
+	font-size:27; margin-top:5; text-align:center;}

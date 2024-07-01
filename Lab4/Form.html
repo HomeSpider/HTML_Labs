@@ -1,0 +1,37 @@
+<html>
+<body>
+<head>
+    <title>
+      Window alert() Method in HTML
+    </title>
+    <style>
+        h1 {
+            color: green;
+        }
+          
+        h2 {
+            font-family: Impact;
+        }
+          
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<form name="form1">
+<input type="text" id="qu">
+<input name="solve" type="button" value="перевірка"
+	onclick="CH(document.form1)">
+	<script type="text/javasript">
+	var reg = /^\w{1,}@\w{2,}\.\w{2,}$/;
+	function CH(ob){
+	var question = document.getElementById('qu').value;
+	if (reg.test(question)) {
+		alert("Ok");
+	}else{
+		alert("error");
+	};
+	};
+</script>
+</form>
+</body></html>

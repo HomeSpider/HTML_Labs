@@ -1,0 +1,12 @@
+BODY {background:url(Sky.jpg); 
+COLOR:White;font-family:"Times New Roman", 
+"normal"; }
+
+.stm {font-style:"Arial"; 
+	font-size:medium;text-align:left;}
+
+.stmain {font-size:45; text-align:center;
+		margin-top:0; margin-bottom:10}
+
+.stft {font-style:italic; 
+	font-size:27; margin-top:0; text-align:center;}

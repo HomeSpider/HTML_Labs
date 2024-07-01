@@ -1,0 +1,47 @@
+<html>
+<head>
+<script type="text/javascript">
+	function functS(ob){
+	var s=0;
+if ((Number(ob.fieldd1.value)>90)
+   &&(Number(ob.fieldd2.value)>90)
+   &&(Number(ob.fieldd3.value)>90)) s=600
+else
+if (((Number(ob.fieldd1.value)>74)
+&&((Number(ob.fieldd2.value)>74)
+   &&((Number(ob.fieldd3.value)>74)) s=500;
+if (ob.decide.checked) s=500;
+return s;
+}
+</script>
+</head>	
+<body BGCOLOR=#A1EAFF TEXT=Black 
+	TOPMARGIN=50 BOTTOMMARGIN=0 
+	LEFTMARGIN=0 RIGHTMARGIN=0>
+	<font size=5>
+<center>
+<Form name="Form3">
+Дисципліна #1:  <input name="fieldd1" 
+			type=text size=12> б.<br>
+Дисципліна #2:  <input name="fieldd2" 
+			type=text size=12> б.<br>
+Дисципліна #3:  <input name="fieldd3" 
+			type=text size=12> б.<br><br>
+			<input name="checkp1" 
+			type=checkbox> 
+Наявність пільг<br><br><br>
+	<font size=6>
+			<input name="decide" type="button" 
+				value="Розрахувати суму стипендії"
+				onclick="document.Form3.fieldS.value=
+				functS(document.Form3)">
+				<br><br>
+Сума стипендії складає:<br>
+			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			<input name="fieldS" 
+			type=text size=12> грн.			
+</form>
+</center>
+</font>
+</body>
+</html>
